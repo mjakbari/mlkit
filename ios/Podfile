@@ -3,7 +3,7 @@ platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
 target 'RNFirebaseStarter' do
-  # Pods for RNFirebaseStarter
+  # Pods for mlkit
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 
@@ -33,6 +33,11 @@ target 'RNFirebaseStarter' do
   # Required by RNFirebase
   pod 'Firebase/Core', '~> 6.8.1'
 
+  # add the Firebase pod for Google Analytics
+  pod 'Firebase/Analytics'
+  # add pods for any other desired Firebase products
+  # https://firebase.google.com/docs/ios/setup#available-pods
+
   # [OPTIONAL PODS] - comment out pods for firebase products you won't be using.
   # pod 'Firebase/AdMob', '~> 6.8.1'
   pod 'Firebase/Auth', '~> 6.8.1'
@@ -47,6 +52,12 @@ target 'RNFirebaseStarter' do
   pod 'Fabric', '~> 1.10.2'
   pod 'Crashlytics', '~> 3.14.0'
 
+  pod 'react-native-camera', path: '../node_modules/react-native-camera', subspecs: [
+    'TextDetector',
+    'FaceDetectorMLKit',
+    'BarcodeDetectorMLKit'
+  ]
+
   target 'RNFirebaseStarterTests' do
     inherit! :search_paths
     # Pods for testing
@@ -60,7 +71,7 @@ target 'RNFirebaseStarter-tvOS' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 
-  # Pods for RNFirebaseStarter-tvOS
+  # Pods for mlkit-tvOS
 
   target 'RNFirebaseStarter-tvOSTests' do
     inherit! :search_paths

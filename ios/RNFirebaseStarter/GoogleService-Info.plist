@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>945089142348-pmgh8vgs7a6r7ne44v69s3abpo9p1dha.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.945089142348-pmgh8vgs7a6r7ne44v69s3abpo9p1dha</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDxuezT4D0BT3X0K20hpqeIe7sfVHKyl4k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>945089142348</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.invertase.RNFirebaseStarter</string>
+	<key>PROJECT_ID</key>
+	<string>ml-kit-ios-c3879</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ml-kit-ios-c3879.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:945089142348:ios:80c8159701607d236f5ee9</string>
+	<key>DATABASE_URL</key>
+	<string>https://ml-kit-ios-c3879.firebaseio.com</string>
+</dict>
+</plist>
